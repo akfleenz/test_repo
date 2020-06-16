@@ -5,7 +5,7 @@
       "conformsTo": "https://www.data.govt.nz/toolkit/schema",
       "dataset":[
     {
-        "title": "Dog Register",
+        "title": "Dog Register sample data",
         "description": "Information about a dog including breed, colour, address, classification and registration status.",
         "identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/d75feb6d777346fbac82b6632a8bde70_0",
         "license": "CC-BY-4.0",
@@ -51,7 +51,7 @@
         ]
     },
     {
-        "title": "Dog Complaint",
+        "title": "Dog Complaint Sample data",
         "description": "Information about dog complaints received including when, where, type of complaint and outcome.",
         "identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/5556de7b1d6d43ac8222fd5ca2b16be3_0",
         "license": "CC-BY-4.0",
