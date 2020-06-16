@@ -1,0 +1,99 @@
+{
+      "@context": "https://www.data.govt.nz/catalog.jsonld",
+      "@id": "https://hamilton.govt.nz/data.json",
+      "@type": "dcat:Catalog",
+      "conformsTo": "https://www.data.govt.nz/toolkit/schema",
+      "dataset":[
+    {
+        "title": "Dog Register",
+        "description": "Information about a dog including breed, colour, address, classification and registration status.",
+        "identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/d75feb6d777346fbac82b6632a8bde70_0",
+        "license": "CC-BY-4.0",
+        "keyword": [
+            "dog",
+            "hamilton city council",
+            "regulatory"
+        ],
+        "issued": "2020-04-10T10:53:26.000Z",
+        "modified": "2020-05-08T02:16:40.000Z",
+        "publisher": {
+            "name": "Hamilton City Council"
+        },
+        "contactPoint": {
+            "fn": "Hamilton City Council",
+            "hasEmail": "opendata@hcc.govt.nz"
+        },
+        "landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/d75feb6d777346fbac82b6632a8bde70_0",
+        "accrualPeriodicity": "irregular",
+        "theme": "Local Authority",
+        "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[-36.0439, -67.8577], [-123.9561, -67.8577], [-123.9561, 86.8229], [-36.0439, 86.8229], [-36.0439, -67.8577]]]}",
+        "distribution": [
+            {
+                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/d75feb6d777346fbac82b6632a8bde70_0",
+                "format": "HTML",
+                "title": "ArcGIS Hub Dataset"
+            },
+            {
+                "downloadURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Dog/FeatureServer/0",
+                "format": "Esri REST",
+                "title": "Esri Rest API"
+            },
+            {
+                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/d75feb6d777346fbac82b6632a8bde70_0.geojson",
+                "format": "GeoJSON",
+                "title": "GeoJSON"
+            },
+            {
+                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/d75feb6d777346fbac82b6632a8bde70_0.csv",
+                "format": "CSV",
+                "title": "CSV"
+            }
+        ]
+    },
+    {
+        "title": "Dog Complaint",
+        "description": "Information about dog complaints received including when, where, type of complaint and outcome.",
+        "identifier": "http://data-waikatolass.opendata.arcgis.com/datasets/5556de7b1d6d43ac8222fd5ca2b16be3_0",
+        "license": "CC-BY-4.0",
+        "keyword": [
+            "dogcomplaint",
+            "hamilton city council",
+            "regulatory"
+        ],
+        "issued": "2020-04-10T05:42:38.000Z",
+        "modified": "2020-05-08T02:16:24.000Z",
+        "publisher": {
+            "name": "Hamilton City Council"
+        },
+        "contactPoint": {
+            "fn": "Hamilton City Council",
+            "hasEmail": "opendata@hcc.govt.nz"
+        },
+        "landingPage": "http://data-waikatolass.opendata.arcgis.com/datasets/5556de7b1d6d43ac8222fd5ca2b16be3_0",
+        "accrualPeriodicity": "irregular",
+        "theme": "Local Authority",
+        "spatial": "{\"type\": \"Polygon\", \"coordinates\": [[[175.14, -37.69], [175.34, -37.69], [175.34, -37.83], [175.14, -37.83], [175.14, -37.69]]]}",
+        "distribution": [
+            {
+                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/5556de7b1d6d43ac8222fd5ca2b16be3_0",
+                "format": "HTML",
+                "title": "ArcGIS Hub Dataset"
+            },
+            {
+                "downloadURL": "https://services1.arcgis.com/R6s0QqCMQdwKY6yp/arcgis/rest/services/Dog_Complaint/FeatureServer/0",
+                "format": "Esri REST",
+                "title": "Esri Rest API"
+            },
+            {
+                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/5556de7b1d6d43ac8222fd5ca2b16be3_0.geojson",
+                "format": "GeoJSON",
+                "title": "GeoJSON"
+            },
+            {
+                "downloadURL": "http://data-waikatolass.opendata.arcgis.com/datasets/5556de7b1d6d43ac8222fd5ca2b16be3_0.csv",
+                "format": "CSV",
+                "title": "CSV"
+            }
+        ]
+    }
+]}
